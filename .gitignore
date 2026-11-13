@@ -1,0 +1,36 @@
+# Original source image stays local.
+/cute-original.png
+
+# Credentials and private signing material.
+.env
+.env.*
+!.env.example
+*credential*
+*keypair*
+*.pem
+*.key
+*.p12
+*.pfx
+id.json
+wallet*.json
+secrets/
+.aws/
+.makefun/credentials*
+
+# Session records, submission responses, and local verification artifacts.
+*.jsonl
+*transcript*
+*rollout*
+*submission-response*
+*submit-response*
+*claim-response*
+test-results/
+test-reports/
+verification/
+*.log
+*.tar.gz
+*.bundle
+/output/
+/out/
+/entry.png
+node_modules/
