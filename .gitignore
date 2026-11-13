@@ -1,5 +1,6 @@
 # Original source image stays local.
 /cute-original.png
+/shibainu.png
 
 # Credentials and private signing material.
 .env

@@ -1,6 +1,7 @@
 # A Little Safe Place
 
-A baby otter holds a sleeping duckling: a small moment of warmth and safety.
+A smiling Shiba Inu in a mint scarf sits beside a kitten under a daisy crown:
+a small moment of warmth and friendship.
 Prepared for [Make the cutest picture](https://make.fun/bounty/cutest-picture-01).
 
 ## Run
@@ -22,7 +23,7 @@ $env:MAKEFUN_OUTPUT_DIR = Join-Path $env:TEMP 'a-little-safe-place-output'
 & 'C:\Program Files\Adobe\Adobe Creative Cloud Experience\libs\node.exe' .\main.ts
 ```
 
-`submission.jpg` is made from the user-selected `cute-original.png` by uniform
+`submission.jpg` is made from the user-selected `shibainu.png` by uniform
 downscaling and JPEG encoding only, preserving the full frame and composition.
 The original image is retained locally and excluded from Git. Transcripts,
 submission responses, credentials, and test reports are kept out of the repository.
